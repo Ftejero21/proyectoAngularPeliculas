@@ -1,0 +1,12 @@
+<div class="cargando" *ngIf="loading">
+    <h1>loading....</h1>
+</div>
+
+<div class="conteiner" *ngIf="!loading">
+    <div class="card" *ngFor="let item of data">
+        <h1>{{item.id}}</h1>
+        <div class="resume">
+            <p>{{item.body}}</p>
+        </div>
+    </div>
+</div>

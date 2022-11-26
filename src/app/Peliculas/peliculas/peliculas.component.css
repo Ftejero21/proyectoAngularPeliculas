@@ -1,0 +1,235 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.conteiner{
+  width: 100%;
+  min-height: 200vh;
+  background-image: url('https://as.com/meristation/imagenes/2021/07/02/reportajes/1625238771_202608_1625238808_noticia_normal.jpg');
+  background-size: cover;
+  background-image: repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.filtro{
+  margin-top: 50px;
+  width: 25%;
+  height: 700px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.titulo-filtro{
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid  white;
+}
+
+.categorias{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid white;
+}
+
+
+
+
+
+.categorias button{
+  padding: 10px 35px;
+  border: none;
+  color: black;
+  font-weight: bold
+}
+
+.conteiner-peliculas{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.titulo-conteiner-peliculas{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.titulo-conteiner-peliculas input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid yellow;
+  color: white;
+
+}
+
+.titulo-conteiner-peliculas input::placeholder{
+  color: white;
+  font-weight: bold;
+
+}
+
+.conteiner-peliculas h3{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.buscador{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.buscador input{
+  background-color: transparent;
+  padding: 5px 15px;
+  border: none;
+  border-bottom: 1px solid yellow;
+  color: white;
+  outline: none;
+}
+
+.buscador input::placeholder{
+  color: white;
+  font-weight: bold;
+}
+
+.conteiner-peliculas2{
+
+  width: 90%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.card{
+  overflow: hidden;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 300px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+
+}
+
+.fecha{
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  width: auto;
+
+  color: white;
+
+  font-weight: bold;
+}
+
+.fecha p{
+  background-color: red;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+
+
+.card-container{
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0.6;
+
+  transform: translateX(-250px);
+  transition: 0.3s;
+}
+
+.card-container button{
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: red;
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+
+#heart{
+  color: white;
+  border: none;
+}
+
+#heart3{
+  display: none;
+  border: none;
+}
+
+
+
+
+
+
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.card img:hover{
+  transform: scale(1.1);
+}
+
+.card:hover .card-container{
+  transform: translateX(0px);
+}
+
+
+
+.botones{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 25px;
+
+}
+
+.botones h3{
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}

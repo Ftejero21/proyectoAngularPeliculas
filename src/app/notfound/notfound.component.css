@@ -1,0 +1,22 @@
+.conteiner{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://as.com/meristation/imagenes/2021/07/02/reportajes/1625238771_202608_1625238808_noticia_normal.jpg');
+    background-size: cover;
+    background-image: repeat;
+    flex-direction: column;
+   
+}
+
+.conteiner h1{
+    margin-top: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.conteiner img{
+    width: 300px;
+}

@@ -1,0 +1,29 @@
+<div class="conteiner">
+    <img src="{{imagen + peliculas.backdrop_path}}" alt="">
+
+    <div class="conteiner-informacion">
+            <div class="conteiner-informacion2">
+                <div class="conteiner-informacion2-imagen">
+                    <img src="{{imagen + peliculas.poster_path}}" alt="">
+                </div>
+                
+                <div class="conteiner-informacion2-informacion">
+                    <div class="conteiner-informacion2-title">
+                        <h2>{{peliculas.original_title}}</h2>
+                        <h2>{{peliculas.release_date}}</h2>
+                    </div>
+                    <div class="conteiner-informacion2-informacion-parrafo">
+                        <p>{{peliculas.overview}}</p>
+                    </div>
+                    <div>
+                        <h3>Puntuacion: <span>{{peliculas.vote_average}}</span></h3>
+                    </div>
+                    <div class="buttons">
+                        <button (click)="guardarPelicula('peliculas2',peliculas)">Añadir a mi lista</button>
+                    </div>
+         
+                </div>
+            </div>
+    </div>
+    
+</div>

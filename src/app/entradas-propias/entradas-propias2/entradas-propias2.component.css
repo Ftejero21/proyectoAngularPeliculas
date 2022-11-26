@@ -1,0 +1,10 @@
+#entrada{
+    width: 50%;
+    height: auto;
+    background-color: aqua;
+}
+
+#entrada h4,p{
+    padding: 10px;
+    border-radius: 5px;
+}
